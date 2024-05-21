@@ -1,0 +1,12 @@
+{
+    "ID": "28E77263BF9B4223BBFBBFE66108FF14",
+    "ActionKeyword": "wp",
+    "Name": "WallpaperSearcher",
+    "Description": "A plugin for quickly searching for wallpapers",
+    "Author": "zkwokleung",
+    "Version": "1.0.0",
+    "Language": "csharp",
+    "Website": "https://github.com/zkwokleung/Flow.Launcher.Plugin.WallpaperSearcher",
+    "IcoPath": "icon.png",
+    "ExecuteFileName": "Flow.Launcher.Plugin.WallpaperSearcher.dll"
+}
