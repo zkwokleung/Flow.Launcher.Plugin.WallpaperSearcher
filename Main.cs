@@ -1,7 +1,5 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using Flow.Launcher.Plugin;
 using Flow.Launcher.Plugin.SharedCommands;
 
 namespace Flow.Launcher.Plugin.WallpaperSearcher
@@ -35,7 +33,7 @@ namespace Flow.Launcher.Plugin.WallpaperSearcher
                                 SearchWeb.OpenInBrowserTab(url.Link);
                                 return true;
                             },
-                            // IcoPath = "Images/app.png"
+                            IcoPath = $"Images/Logos/{url.Name}.png"
                         };
                     })
                     .ToList();
@@ -55,7 +53,7 @@ namespace Flow.Launcher.Plugin.WallpaperSearcher
                             SearchWeb.OpenInBrowserTab(url.GetQueryURL(search));
                             return true;
                         },
-                        // IcoPath = "Images/app.png"
+                        IcoPath = $"Images/Logos/{url.Name}.png"
                     };
                 })
                 .ToList();
