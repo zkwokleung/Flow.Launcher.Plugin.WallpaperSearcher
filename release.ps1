@@ -1,2 +1,2 @@
-dotnet publish Flow.Launcher.Plugin.WallpaperSearcher -c Release -r win-x64 --no-self-contained
-Compress-Archive -LiteralPath Flow.Launcher.Plugin.WallpaperSearcher/bin/Release/win-x64/publish -DestinationPath Flow.Launcher.Plugin.WallpaperSearcher/bin/WallpaperSearcher.zip -Force
+dotnet publish . -c Release -r win-x64 --no-self-contained
+Compress-Archive -LiteralPath bin/Release/win-x64/publish -DestinationPath bin/WallpaperSearcher.zip -Force
