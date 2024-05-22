@@ -7,6 +7,6 @@
   "Version": "1.0.0",
   "Language": "csharp",
   "Website": "https://github.com/zkwokleung/Flow.Launcher.Plugin.WallpaperSearcher",
-  "IcoPath": "Images/icon.png",
+  "IcoPath": "https://cdn.jsdelivr.net/gh/zkwokleung/Flow.Launcher.Plugin.WallpaperSearcher@main/Images/icon.png",
   "ExecuteFileName": "Flow.Launcher.Plugin.WallpaperSearcher.dll"
 }
