@@ -30,7 +30,7 @@ namespace Flow.Launcher.Plugin.WallpaperSearcher
                             SubTitle = $"{url.Link}",
                             Action = c =>
                             {
-                                SearchWeb.OpenInBrowserTab(url.Link);
+                                _context.API.OpenUrl(url.Link);
                                 return true;
                             },
                             IcoPath = $"Images/Logos/{url.Name}.png"
@@ -50,7 +50,7 @@ namespace Flow.Launcher.Plugin.WallpaperSearcher
                         SubTitle = $"{url.GetQueryURL(search)}",
                         Action = c =>
                         {
-                            SearchWeb.OpenInBrowserTab(url.GetQueryURL(search));
+                            _context.API.OpenUrl(url.GetQueryURL(search));
                             return true;
                         },
                         IcoPath = $"Images/Logos/{url.Name}.png"
