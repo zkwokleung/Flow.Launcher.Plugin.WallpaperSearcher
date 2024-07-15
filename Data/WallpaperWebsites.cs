@@ -15,7 +15,9 @@ namespace Flow.Launcher.Plugin.WallpaperSearcher
                 ),
                 new("Wallpapers.com", "https://wallpapers.com/", "search/{0}"),
                 new("Pexels", "https://www.pexels.com/", "search/{0}/"),
-                new("Unsplash", "https://unsplash.com/", "s/photos/{0}")
+                new("Unsplash", "https://unsplash.com/", "s/photos/{0}"),
+                new("wallhaven", "https://wallhaven.cc/", "search?q={0}"),
+                new("Wallpaper Craft", "https://wallpaperscraft.com/", "search/?query={0}"),
             };
         }
     }
