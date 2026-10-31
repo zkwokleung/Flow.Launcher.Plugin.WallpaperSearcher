@@ -1,7 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
     <AssemblyName>Flow.Launcher.Plugin.WallpaperSearcher</AssemblyName>
     <PackageId>Flow.Launcher.Plugin.WallpaperSearcher</PackageId>
     <Authors>zkwokleung</Authors>
@@ -20,11 +23,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Languages\*.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
+    <None Include="Languages\*.xaml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </None>
     <Content Include="Images\Logos\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
